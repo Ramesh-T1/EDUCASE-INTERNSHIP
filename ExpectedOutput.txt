@@ -1,0 +1,62 @@
+
+GET:-->http://localhost:3000/listSchools/12/16
+Output:-
+[
+    {
+        "id": "SN002",
+        "name": "Shardashram Vidya Mandir",
+        "address": "Plot-05,Vashi",
+        "latitude": 32.05,
+        "longitude": 44,
+        "distance": 3626.166356479501
+    },
+    {
+        "id": "SN003",
+        "name": "Don Bosco",
+        "address": "Panvel",
+        "latitude": 405,
+        "longitude": 30,
+        "distance": 3903.210638226728
+    },
+    {
+        "id": "SN004",
+        "name": "Narayan Smiti",
+        "address": "Tilak Nagar",
+        "latitude": 40.5,
+        "longitude": -20.4,
+        "distance": 4759.430272111108
+    },
+    {
+        "id": "SN001",
+        "name": "Holy Family",
+        "address": "Plot-04,Mankhurd",
+        "latitude": 51.05,
+        "longitude": 42.1,
+        "distance": 4942.32946899063
+    },
+    {
+        "id": "SN005",
+        "name": "Maratha Vidyalaya",
+        "address": "Kurla",
+        "latitude": 66.14,
+        "longitude": -40.4,
+        "distance": 7322.374609181978
+    }
+]
+
+
+POST:-http://localhost:3000/addSchool
+REQUEST BODY:-{
+    "id":"SN005",
+    "name":"Maratha Vidyalaya",
+    "address":"Kurla",
+    "latitude":66.14,
+    "longitude":-40.4
+}
+
+
+Output:-{
+    "success": "School added successfully"
+}
+
+Also Check in MYSQL DB

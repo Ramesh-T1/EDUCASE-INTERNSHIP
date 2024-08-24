@@ -1,0 +1,8 @@
+Download the project from git
+Open the project in VS code
+Open integrated terminal use command prompt only in integrated terminal
+type npm install
+after that type npm start
+goto POSTMAN and type end points
+POST:-http://localhost:3000/addSchool
+http://localhost:3000/listSchools/12/16
